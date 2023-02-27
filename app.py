@@ -3,7 +3,7 @@ import streamlit as st
 import numpy as np
 st.set_page_config(page_title = "Calorie Burn")
 
-calorie_model=pickle.load(open('D:\Projects\Calories Burnt Prediction\calorie_burnt.sav','rb'))
+calorie_model=pickle.load(open('calorie_burnt.sav','rb'))
 
 st.title('Calorie Burnt Prediction')
 st.markdown("This Web App, aims to predict the amount of calories burnt during physical activity based on various factors such as the your gender, height, weight, and the type of activity performed. The project uses machine learning algorithms to achieve this goal.")
